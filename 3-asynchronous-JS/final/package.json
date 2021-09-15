@@ -2,13 +2,15 @@
   "name": "3-asynchronous-js",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "nodemon": "^2.0.12",
     "superagent": "^5.0.2"
   }
 }
